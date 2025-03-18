@@ -8,6 +8,6 @@ class Kontakt {
   Kontakt(this.Foto, this.Name, this.Online);
 }
 
-void main (){
-  
+void main() {
+  Kontakt Kontakt1 = Kontakt ("Foto","Name","online");
 }
