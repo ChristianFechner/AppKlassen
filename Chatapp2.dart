@@ -1,10 +1,10 @@
-Class Kopfteil{
+class Kopfteil{
   String Inhalt;
   String Suchbutton;
-  String Einstellung;
+  String Ebutton;
 
  // Konstruktor
-  Kontakt(this.Inhalt, this.Suchbutton this.Einstellung);
+Kopfteil(this.Inhalt, this.Suchbutton,this.Ebutton);
 }
 
 void main (){
