@@ -1,13 +1,16 @@
-class Kopfteil{
-  String Inhalt;
-  String Suchbutton;
-  String Ebutton;
+//  3te screen
+class Chats{
+  String Profilbild;
+  String Name;
+  String LetzteNachricht;
+  DateTime DatumChat;
+
 
  // Konstruktor
-Kopfteil(this.Inhalt, this.Suchbutton,this.Ebutton);
+Chats(this.Profilbild, this.Name,this.LetzteNachricht, this.DatumChat);
 }
 
 void main (){
 
-  Kopfteil Kopfteil1 = Kopfteil ("Inhalt", "Suchbutton", "Ebutton");
+  Chats screen3 = Chats ("Profilbild", "Name", "LetzteNachricht", "DatumChat");
 }

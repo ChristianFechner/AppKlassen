@@ -1,13 +1,18 @@
+// 2te Screen
+
 class Kontakt {
   // Atribute
   String Foto;
   String Name;
-  String Online;
+  String ZulOnline;
 
   // Konstruktor
-  Kontakt(this.Foto, this.Name, this.Online);
+  Kontakt(this.Foto, this.Name, this.ZulOnline);
 }
 
 void main() {
-  Kontakt Kontakt1 = Kontakt ("Foto","Name","online");
+  Kontakt screen2 = Kontakt ("Foto","Name","ZulOnline");
 }
+
+// Button Kontakte durchsuchen
+Suchbutton mit Eingabefeld
